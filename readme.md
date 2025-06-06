@@ -15,10 +15,10 @@ Ich habe das Design meiner Webseite gezeichnet und dann später mich inspirieren
 
 ## 13.6
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Der Projekte Teil nochmals überarbeiten udn alles zentrieren.
+- [ ] Die Farben anpassen
+- [ ] Den header Spannender machen. Grösser/andere Schrift/ Profilbild
+- [ ] eine Navigation machen oder ein aside feld
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
