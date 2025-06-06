@@ -1,7 +1,7 @@
 /* Grundlegendes Styling */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+  line-height: 2;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
@@ -18,14 +18,12 @@ header, main, footer {
 /* Header */
 header {
   background-color: #e0f0ff;
-  text-align: center;
-  padding: 40px 20px;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 20px;
 }
 
-/* Überschriften */
-h1, h2 {
-  color: #004080;
-}
+
 
 /* Links */
 a {
@@ -44,3 +42,37 @@ footer {
   font-size: 0.9em;
   color: #666;
 }
+
+.aboutme {
+  background-color: #d70b31;
+  color: aqua;
+  margin: 1px;
+  height: 300px;
+}
+
+.myprojects{
+  background-color: deeppink;
+  height: 500px;
+      margin: 1px;
+}
+
+
+.Projektelinks {
+  background-color: aliceblue;
+ width: 100px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+  float:inline-start;
+
+}
+
+.Projekterechts {
+  background-color: aliceblue;
+  width: 100px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+  float: inline-start;
+}
+
