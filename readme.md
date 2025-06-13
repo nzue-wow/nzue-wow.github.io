@@ -15,21 +15,20 @@ Ich habe das Design meiner Webseite gezeichnet und dann später mich inspirieren
 
 ## 13.6
 
-- [ ] Der Projekte Teil nochmals überarbeiten udn alles zentrieren.
-- [ ] Die Farben anpassen
-- [ ] Den header Spannender machen. Grösser/andere Schrift/ Profilbild
-- [ ] eine Navigation machen oder ein aside feld
+- [x] Der Projekte Teil nochmals überarbeiten udn alles zentrieren.
+- [x] Die Farben anpassen
+- [x] Den header Spannender machen. Grösser/andere Schrift/ Profilbild
+- [x] eine Navigation machen oder ein aside feld
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+Heute habe ich die ganze Webseite überarbeitet. Ich die Farben geändert und dann bei meinen Projekten die Felder überarbeitet. Ich habe dann auch alle Felder Zentriert damit alles schön in der mitte ist. Dann habe ich beim Header ein profilbild Hinzugefügt un die farbedes textes geändert. Dann habe ichnoch eine navigation gemacht die, wenn man draufklickt gleich auf den richtigen Part von der Webseite kommt.
 ☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
 ## 20.7
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Navigation soll auch beim runterscrollen sichtbar sein
+- [ ] Meine Projekte beschreiben
+- [ ] Link zum Github machen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
