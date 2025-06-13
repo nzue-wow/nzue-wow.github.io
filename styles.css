@@ -1,33 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  --mylightbrown:wheat;
+  --mydarkbrown: #6A381F;
+  --hintergrund: burlywood;
+  --shadow:#98764a;
+}
+
 /* Grundlegendes Styling */
 body {
   font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
   line-height: 2;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color:var(--hintergrund);
+  
 }
 
 /* Seitenbereiche */
 header, main, footer {
   padding: 20px;
-  max-width: 800px;
+  
   margin: auto;
 }
 
 /* Header */
 header {
-  background-color: #e0f0ff;
+  background-color: var(--mydarkbrown);
   text-align: left;
   padding: 10px 20px;
   font-size: 20px;
+  text-align: center;
+  border-radius: 90px;
+  color: #FFFFB3;
+  
+
+  
+
 }
 
+img{
+  
+  width: 100px;
+  clip-path: circle(50px);
+  align-items:center;
+ 
+}
 
+h2{
+   padding: 20px;
+}
 
+nav{
+  text-align: center;
+  background-color:var(--hintergrund);
+  padding: 1px 20px;
+  
+}
+
+button{
+  margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    background-color: var(--mylightbrown);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+        border-radius: 5px;
+    ;
+    
+}
 /* Links */
 a {
-  color: #0066cc;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -43,36 +91,45 @@ footer {
   color: #666;
 }
 
-.aboutme {
-  background-color: #d70b31;
-  color: aqua;
+#aboutme {
+  background-color: var(--mylightbrown);
+  box-shadow: 10px 10px 5px var(--shadow);
+
+  color: rgb(0, 0, 0);
   margin: 1px;
-  height: 300px;
-}
-
-.myprojects{
-  background-color: deeppink;
-  height: 500px;
-      margin: 1px;
-}
-
-
-.Projektelinks {
-  background-color: aliceblue;
- width: 100px;
-  border: 5px solid green;
-  padding: 50px;
-  margin: 20px;
-  float:inline-start;
+  height: 450px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  text-align: justify;
+  margin: 20px auto;
 
 }
-
-.Projekterechts {
-  background-color: aliceblue;
-  width: 100px;
-  border: 5px solid green;
-  padding: 50px;
-  margin: 20px;
-  float: inline-start;
+#übermichtext{
+  
+   padding: 20px;
 }
 
+
+
+#myprojects{
+  background-color: var(--mylightbrown);
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px var(--shadow);
+}
+
+
+.Projekte {
+ background-color:var(--mydarkbrown);
+      color: #FFFFB3;
+      padding: 40px;
+      text-align: middle;
+      border-radius: 8px;
+
+}
+
+#Prokektetext{
+  text-align:justify;
+}
