@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:var(--hintergrund);
-  
+  padding-top: 50px;
 }
 
 /* Seitenbereiche */
@@ -41,12 +41,14 @@ header {
 
 }
 
+
+ 
 img{
   
   width: 100px;
   clip-path: circle(50px);
   align-items:center;
- 
+ border-color: #000000;
 }
 
 h2{
@@ -57,8 +59,12 @@ nav{
   text-align: center;
   background-color:var(--hintergrund);
   padding: 1px 20px;
-  
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 
 button{
   margin: 10px;
@@ -97,16 +103,17 @@ footer {
 
   color: rgb(0, 0, 0);
   margin: 1px;
-  height: 450px;
+  
   border-radius: 8px;
   margin-bottom: 8px;
   text-align: justify;
   margin: 20px auto;
-
+  
 }
 #übermichtext{
   
    padding: 20px;
+  
 }
 
 
@@ -121,15 +128,30 @@ footer {
 }
 
 
-.Projekte {
- background-color:var(--mydarkbrown);
-      color: #FFFFB3;
-      padding: 40px;
-      text-align: middle;
-      border-radius: 8px;
-
+.projekt {
+  background-color: var(--mydarkbrown);
+  color: #FFFFB3;
+  text-align: left;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 5px 5px 10px var(--shadow);
 }
 
-#Prokektetext{
-  text-align:justify;
+.projekt a.projektlinks {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #FFFFB3;
+  text-decoration: none;
+}
+
+.projekt a.projektlinks:hover {
+  text-decoration: underline;
+}
+
+.projektbeschreibung {
+  font-size: 0.95em;
+  margin: 0;
 }
