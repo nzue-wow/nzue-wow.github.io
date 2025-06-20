@@ -26,18 +26,18 @@ Heute habe ich die ganze Webseite überarbeitet. Ich die Farben geändert und da
 
 ## 20.7
 
-- [ ] Navigation soll auch beim runterscrollen sichtbar sein
-- [ ] Meine Projekte beschreiben
-- [ ] Link zum Github machen
+- [x] Navigation soll auch beim runterscrollen sichtbar sein
+- [x] Meine Projekte beschreiben
+- [x] Link zum Github machen
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+Die Navigation so Programmiert das man wenn man runterscrollt immernoch drauf klicken kann. dann habe ich meine Projekte verlinkt die direkt zum Github gehen. In den Boxen habe ich die Projekte kurz beschrieben.
 ☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
 ## 27.7 Abschluss
 
-- [ ] ...
-- [ ] ...
+- [ ] Webseite Responsive machen
+- [ ] Kontakt hinzufügen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
