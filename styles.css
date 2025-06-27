@@ -110,7 +110,7 @@ footer {
   margin: 20px auto;
   
 }
-#übermichtext{
+.übermichtext{
   
    padding: 20px;
   
@@ -154,4 +154,27 @@ footer {
 .projektbeschreibung {
   font-size: 0.95em;
   margin: 0;
+}
+
+#Kontakt{
+  Background-color: var(--mylightbrown);
+  box-shadow: 10px 10px 5px var(--shadow);
+
+  color: rgb(0, 0, 0);
+  margin: 1px;
+  
+  border-radius: 8px;
+  margin-bottom: 8px;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+#E-Mailtext{
+  padding: 20px;
+  
+}
+
+#E-Mail{
+  padding: 20px;  
+  
 }
