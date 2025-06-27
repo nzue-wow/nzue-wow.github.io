@@ -36,11 +36,11 @@ Die Navigation so Programmiert das man wenn man runterscrollt immernoch drauf kl
 
 ## 27.7 Abschluss
 
-- [ ] Webseite Responsive machen
-- [ ] Kontakt hinzufügen
+- [x] Webseite Responsive machen
+- [x] Kontakt hinzufügen
 
 ✍️ Heute habe ich... (50-100 Wörter)
-
+  Ich habe mit `<meta name="viewport" content="width=device-width, initial-scale=1.0">` die Webseite Responsive gemacht. Dann habe ich noch einen Block mit Kontakt hinzugefügt. Da habe ich dann meine Email Adresse vverlinkt mit `mailto:`.
 ☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
 ## Reflexion
