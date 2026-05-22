@@ -1,0 +1,19 @@
+// Scroll Button
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
+// Fade-In Animation
+const elements = document.querySelectorAll(".fade-in");
+
+window.addEventListener("scroll", () => {
+  elements.forEach(el => {
+    const position = el.getBoundingClientRect().top;
+
+    if (position < window.innerHeight - 100) {
+      el.classList.add("show");
+    }
+  });
+});

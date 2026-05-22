@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nena Zühlke | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">NZ<span>.</span></div>
+  <div class="nav-links">
+    <a href="#about">Über mich</a>
+    <a href="#projects">Projekte</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <span class="badge">Informatikerin EFZ Applikationsentwicklung</span>
+      <h1>Nena Zühlke</h1>
+      <p><strong>Technik begeistert mich schon lange – vor allem, wie man mit Code Ideen zum Leben erweckt</strong>.</p>
+      <div class="hero-btns">
+          <button class="btn-primary" onclick="scrollToSection('projects')">Projekte ansehen</button>
+          <button class="btn-secondary" onclick="scrollToSection('contact')">Kontakt</button>
+      </div>
+    </div>
+    
+    <div class="hero-image-wrapper">
+      <img src="IMG_0047.png" alt="Nena Zühlke" class="hero-profile-img">
+      <div class="hero-image-glow"></div>
+    </div>
+  </div>
+  <div class="hero-bg-glow"></div>
+</header>
+
+<section id="about" class="fade-in">
+  <div class="section-container">
+    <h2 class="section-title">Über mich</h2>
+    <div class="about-grid">
+        <p>
+          Ich bin eine 18-jährige <strong>Informatikmittelschülerin (IMS)</strong> im zweiten Ausbildungsjahr
+           mit einer grossen Leidenschaft dafür, kreative Ideen durch Code zum Leben zu erwecken. Das Beste am Programmieren ist für mich der Moment,
+            wenn nach langem, intensivem Tüfteln plötzlich alles fehlerfrei funktioniert – genau dieses Gefühl motiviert mich, täglich Neues zu lernen.
+             Ich zeichne mich durch eine strukturierte, zuverlässige Arbeitsweise aus und liebe es, mich immer tiefer in komplexe IT-Themen einzuarbeiten.
+        </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="fade-in">
+  <div class="section-container">
+    <h2 class="section-title">Tech Stack<span>.</span></h2>
+    <div class="skills-wrapper">
+      
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3 / SCSS</span>
+          <span class="tag">JavaScript (ES6+)</span>
+          <span class="tag">React / Vue</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Backend & Tools</h3>
+        <div class="skill-tags">
+          <span class="tag">Java / C#</span>
+          <span class="tag">SQL / MongoDB</span>
+          <span class="tag">Git & GitHub</span>
+          <span class="tag">Docker</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Design & Workflow</h3>
+        <div class="skill-tags">
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Agile (Scrum)</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-container">
+    <h2 class="section-title">Projekte<span>.</span></h2>
+    <div class="project-grid">
+      
+      <div class="project-card fade-in">
+        <div class="project-img-container">
+          <img src="shutterstock_131765054-Medium.jpg" alt="Wertpapierportfolio" class="project-img">
+        </div>
+        <div class="project-info">
+          <span>Konsolen Programm mit C#</span>
+          <h3>Wertpapierportfolio</h3>
+          <p>Ein Konsolenprogramm zur Verwaltung eines Wertpapierportfolios, das aktuelle Kursdaten aus dem Internet abruft.</p>
+          <a href="https://github.com/nzue-wow/Lyrics-finder" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-img-container">
+          <img src="lyrics-thumbnail.jpg" alt="Lyrics Finder" class="project-img">
+        </div>
+        <div class="project-info">
+          <span>Webdesign mit JavaScript</span>
+          <h3>Lyrics Finder</h3>
+          <p>Eine Anwendung zur Suche nach dem Liedtext eines bestimmten Liedes.</p>
+          <a href="https://github.com/nzue-wow/Lyrics-finder" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="project-img-container">
+          <img src="rental-thumbnail.jpg" alt="Digital Rental System" class="project-img">
+        </div>
+        <div class="project-info">
+          <span>Webdesign mit JavaScript</span>
+          <h3>Digital Rental & Cloud Sync</h3>
+          <p>Eine serverlose Web-App zur Echtzeit-Verwaltung von SUP-Vermietungen mit lokaler Datenresidenz in der Schweiz.</p>
+          <a href="https://github.com/nzue-wow/Serverless_Verleih_Verwaltungsplattform" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-content">
+    <h2>Lass uns zusammenarbeiten.</h2>
+    <a href="mailto:nena.zuehlke@icloud.com" class="email-link">nena.zuehlke@icloud.com</a>
+    <p>© 2026 Nena Zühlke — Gebaut mit Code & Leidenschaft.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
