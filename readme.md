@@ -23,10 +23,10 @@
 
 ## 29.5.
 
-- [ ] Start-Seite 1
-- [ ] Start-Seite 2
-- [ ] Start-Seite 3
-- [ ] Start-Seite 4
+- [ ] Bilder für meine Projekte stylisch rein packen
+- [ ] anderes Porträt Bild? besseres format
+- [ ] zeit in Python investieren
+- [ ] was kleines Programmieren mit Python
 
 ☝️ Vergessen Sie nicht, die angepasste Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
