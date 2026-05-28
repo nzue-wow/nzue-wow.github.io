@@ -23,10 +23,10 @@
 
 ## 29.5.
 
-- [ ] Bilder für meine Projekte stylisch rein packen
-- [ ] anderes Porträt Bild? besseres format
-- [ ] zeit in Python investieren
-- [ ] was kleines Programmieren mit Python
+- [x] Bilder für meine Projekte stylisch rein packen
+- [x] anderes Porträt Bild? besseres format
+- [x] zeit in Python investieren
+- [x] was kleines Programmieren mit Python
 
 ☝️ Vergessen Sie nicht, die angepasste Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
 
