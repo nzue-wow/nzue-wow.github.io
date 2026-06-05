@@ -32,9 +32,13 @@
 
 ## 5.6.
 
-- [ ] LinkedIn-Profil erstellen / ausputzen
-- [ ] GitHub-Profil professionalisieren (`readme.md`)
-- [ ] Start-Seite abschliessen
-- [ ] Rückmeldung geben
+- [x] LinkedIn-Profil erstellen / ausputzen
+- [x] GitHub-Profil professionalisieren (`readme.md`)
+- [x] Start-Seite abschliessen
+- [x] Rückmeldung geben
 
 ☝️ Vergessen Sie nicht, die fertige Version Ihrer Start-Seite in der entsprechenden Ablage hochzuladen.
+Mein LinkedIn: https://www.linkedin.com/in/nena-z%C3%BChlke-1ab9483b9/
+
+Das GitHub readme.md für mein Profil habe ich auch gemacht. Ich sollte noch ein richtiges Profilbild hinzufügen. Dann sollte ich noch ein eigenes Projekt starten, am besten ein Backend Projekt damit ich möglichst verschiedene Projete auf meinen Profil habe. Ich muss noch meine richtige Startseite veröffendlichen.
+
