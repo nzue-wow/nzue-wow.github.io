@@ -1,19 +1,23 @@
-// Scroll Button
+// smooth scroll
 function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({
-    behavior: "smooth"
-  });
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
 
-// Fade-In Animation
+// fade in
 const elements = document.querySelectorAll(".fade-in");
 
-window.addEventListener("scroll", () => {
-  elements.forEach(el => {
-    const position = el.getBoundingClientRect().top;
-
-    if (position < window.innerHeight - 100) {
-      el.classList.add("show");
-    }
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) e.target.classList.add("show");
   });
+}, { threshold: 0.15 });
+
+elements.forEach(el => observer.observe(el));
+
+// cursor glow
+const glow = document.querySelector(".cursor-glow");
+
+document.addEventListener("mousemove", (e) => {
+  glow.style.left = e.clientX + "px";
+  glow.style.top = e.clientY + "px";
 });

@@ -220,6 +220,62 @@ footer {
   text-decoration: none;
 }
 
+#contact {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: sans-serif; /* Oder deine Schriftart */
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Abstand zwischen den Links */
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover-Farbe für LinkedIn (das typische Blau) */
+.footer-links .linkedin:hover {
+  color: #0077b5;
+}
+
+/* Hover-Farbe für Email */
+.footer-links .email:hover {
+  color: #555;
+}
+
+.divider {
+  color: #ccc;
+}
+
+#contact p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Für Mobilgeräte: Links untereinander stapeln */
+@media (max-width: 480px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .divider {
+    display: none;
+  }
+}
+
 /* FADE IN */
 .fade-in {
   opacity: 0;
