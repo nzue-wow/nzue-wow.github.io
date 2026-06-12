@@ -42,3 +42,17 @@ Mein LinkedIn: https://www.linkedin.com/in/nena-z%C3%BChlke-1ab9483b9/
 
 Das GitHub readme.md für mein Profil habe ich auch gemacht. Ich sollte noch ein richtiges Profilbild hinzufügen. Dann sollte ich noch ein eigenes Projekt starten, am besten ein Backend Projekt damit ich möglichst verschiedene Projete auf meinen Profil habe. Ich muss noch meine richtige Startseite veröffendlichen.
 
+## 12.06
+
+- [x] Webseite veröffentlichen/updaten
+- [x] github Profil verbessern.
+
+Heute habe ich die neue Version meiner Webseite veröffentlicht. Es gab dann ein Problem das die veröffentlichte Webseite die Effekte und den Hintergrund nicht mitgenommen hat. Dann habe ich den Code  nochmals hochgeladen und musste dann ca. 10 min
+
+## 19.06
+
+- [ ] Fehler bei der Veröffentlichung verbessern
+- [ ] Besseres Design bei der Webseite machen
+- [ ] Schulische Laufbahn hinzufügen
+- [ ] Ein neues, kleines Projekt anfangen für mein Portfolio
+
