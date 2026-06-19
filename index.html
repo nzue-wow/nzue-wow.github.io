@@ -6,155 +6,209 @@
 
   <title>Nena Zühlke | Portfolio</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- BACKGROUND ELEMENTS -->
 <div class="grid-bg"></div>
 <div class="cursor-glow"></div>
 
-<!-- NAV -->
 <nav class="navbar">
   <div class="nav-logo">NZ<span>.</span></div>
 
   <div class="nav-links">
     <a href="#about">Über mich</a>
+    <a href="#education">Laufbahn</a>
     <a href="#projects">Projekte</a>
     <a href="#contact">Kontakt</a>
   </div>
 </nav>
 
-<!-- HERO -->
 <header class="hero">
-
-  <div class="hero-bg-text">NENA</div>
-
   <div class="hero-container">
-
     <div class="hero-content">
-
-      <span class="badge">Informatikerin EFZ Applikationsentwicklung</span>
-
+      <span class="badge">// hello world</span>
       <h1>Nena Zühlke</h1>
-
-      <p>
-        Ich entwickle digitale Produkte mit Fokus auf Design,
-        UX und cleanem Code. Ich liebe Interfaces, die sich lebendig anfühlen.
-      </p>
+      <p class="subtitle">Informatikerin EFZ Applikationsentwicklung</p>
+   <p class="hero-desc">
+    Motiviert, neugierig und bereit für neue Tech-Stacks. Ich liebe es, mich schnell in komplexe Systeme einzuarbeiten und frische Ideen direkt in produktiven Code zu verwandeln.
+  </p>
 
       <div class="hero-btns">
-        <button class="btn-primary" onclick="scrollToSection('projects')">Projekte</button>
-        <button class="btn-secondary" onclick="scrollToSection('contact')">Kontakt</button>
+        <button class="btn-primary" onclick="scrollToSection('projects')">Meine Arbeit</button>
       </div>
-
     </div>
 
     <div class="hero-image-wrapper">
-      <img src="IMG_0047.png" class="hero-profile-img">
-      <div class="hero-image-glow"></div>
+      <div class="image-border">
+        <img src="IMG_0047.png" alt="Nena Zühlke" class="hero-profile-img">
+      </div>
     </div>
-
   </div>
 </header>
 
-<!-- ABOUT -->
 <section id="about" class="fade-in section">
-  <h2 class="section-title">Über mich<span>.</span></h2>
+  <div class="section-header">
+    <p class="section-mono">// about</p>
+    <h2 class="section-title">Über mich</h2>
+  </div>
 
-  <p class="about-text">
-    Ich bin eine Informatikmittelschülerin mit einer Leidenschaft für
-    moderne Interfaces, kreative Lösungen und interaktive Web-Erlebnisse.
-    Ich liebe es, Ideen in echte Produkte zu verwandeln.
-  </p>
-</section>
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="terminal-title">system_log</span>
+    </div>
+    <div class="terminal-body">
+      <p><span class="prompt">></span> <span class="command">initialize --profile "Nena"</span></p>
+      <p class="output">
+        [OK] Profil geladen. 
+       Ich bin eine 18-jährige angehende Informatikerin und aktuell im
+        zweiten Ausbildungsjahr der IMS. Technik begeistert mich
+        schon lange – vor allem, wie man mit Code Ideen zum Leben
+        erweckt.
+      </p>
+      <p><span class="prompt">></span> <span class="command">scan --target tech_stack</span></p>
+      <div class="skills-output">
+        <span class="skill-tag">HTML/CSS/JS</span>
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">SQL </span>
+        <span class="skill-tag">Firebase</span>
+        <span class="skill-tag">MongoDB / Cassandra</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Git / GitHub</span>
 
-<!-- SKILLS -->
-<section class="fade-in section">
-  <h2 class="section-title">Tech Stack<span>.</span></h2>
-
-  <div class="skills">
-    <div class="skill-box">HTML / CSS / JS</div>
-    <div class="skill-box">Docker</div>
-    <div class="skill-box">AWS</div>
-    <div class="skill-box">C# / Java</div>
-    <div class="skill-box">SQL / MongoDB</div>
+      </div>
+      <p><span class="prompt blink">_</span></p>
+    </div>
   </div>
 </section>
 
-<!-- PROJECTS -->
+<section id="education" class="fade-in section">
+  <div class="section-header">
+    <p class="section-mono">// experience</p>
+    <h2 class="section-title">Schulische Laufbahn</h2>
+    <p class="section-desc">Mein Weg in die Applikationsentwicklung.</p>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>Informatikmittelschule (IMS)</h3>
+          <span class="timeline-date">2024 — Heute</span>
+        </div>
+        <p class="timeline-location">Informatikmittelschule Aarau</p>
+        <p class="timeline-desc">
+          Fokus auf Applikationsentwicklung. Erlernen von objektorientierter Programmierung, Datenbanken, Web-Technologien und agilen Arbeitsmethoden.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3>Sekundarschule</h3>
+          <span class="timeline-date">2021 — 2024</span>
+        </div>
+        <p class="timeline-location">Bezirksschule Seengen</p>
+        <p class="timeline-desc">
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="projects" class="fade-in section">
-  <h2 class="section-title">Projekte<span>.</span></h2>
+  <div class="section-header">
+    <p class="section-mono">// work</p>
+    <h2 class="section-title">What I've Built</h2>
+    <p class="section-desc">Eine Auswahl an Tools, Apps und Plattformen.</p>
+  </div>
 
   <div class="project-grid">
-
+    
     <div class="project-card">
-      <div class="project-img-container">
-        <img src="shutterstock_131765054-Medium.jpg">
+      <div class="project-meta">
+        <span class="project-id">APP_01</span>
+        <span class="project-type">Finance</span>
       </div>
       <div class="project-info">
         <h3>Wertpapierportfolio</h3>
-        <p>Portfolio Management Tool mit Live-Daten.</p>
+        <p>Portfolio Management Tool mit Live-Daten zur Überwachung und Analyse von Aktienkursen in Echtzeit.</p>
+      </div>
+      <div class="project-tags">
+        <span>C#</span>
+        <span>API</span>
       </div>
     </div>
 
     <div class="project-card">
-      <div class="project-img-container">
-        <img src="finllyricpic.png">
+      <div class="project-meta">
+        <span class="project-id">APP_02</span>
+        <span class="project-type">Music</span>
       </div>
       <div class="project-info">
         <h3>Lyrics Finder</h3>
-        <p>Songtext Such-App mit API Integration.</p>
+        <p>Eine schnelle Songtext Such-App, die mit einer Musik-API, Texte ohne Werbung anzuzeigen.</p>
+      </div>
+      <div class="project-tags">
+        <span>JavaScript</span>
+        <span>REST API</span>
       </div>
     </div>
 
     <div class="project-card">
-      <div class="project-img-container">
-        <img src="rental-thumbnail.jpg">
+      <div class="project-meta">
+        <span class="project-id">APP_03</span>
+        <span class="project-type">E-Commerce</span>
       </div>
       <div class="project-info">
         <h3>Rental System</h3>
-        <p>Serverless SUP Rental Platform.</p>
+        <p>Serverless SUP Rental Platform mit automatisiertem Buchungssystem und moderner Zahlungsintegration.</p>
+      </div>
+      <div class="project-tags">
+        <span>AWS</span>
+        <span>Firebase</span>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- CURRENTLY EXPLORING -->
-<section class="fade-in section">
-  <h2 class="section-title">Currently Exploring<span>.</span></h2>
+<footer id="contact" class="fade-in section">
+  <div class="contact-container">
+    <p class="section-mono">// contact</p>
+    <h2>Let's Build Something</h2>
+    <p class="contact-text">
+      Ich suche für mein 4. Ausbildungsjahr eine spannendes Praktikum im Bereich Applikationsentwicklung. Ich freue mich auf Ihre Kontaktaufnahme!
+    </p>
 
-  <div class="explore">
-    <div class="pill">AI & Machine Learning</div>
-    <div class="pill">Game Development</div>
-
-      
-    
- 
-  </div>
-</section>
-
-<footer id="contact">
-  <h2>Lass uns arbeiten.</h2>
-
-  <div class="footer-links">
-    <a class="email" href="mailto:nena.zuehlke@icloud.com">
+    <a class="email-btn" href="mailto:nena.zuehlke@icloud.com">
       nena.zuehlke@icloud.com
     </a>
     
-    <span class="divider">|</span>
+    <div class="footer-links">
+      <a class="linkedin" href="https://www.linkedin.com/in/nena-z%C3%BChlke-1ab9483b9/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      <a class="github" href="#" target="_blank">
+        GitHub
+      </a>
+    </div>
 
-    <a class="linkedin" href="https://www.linkedin.com/in/nena-z%C3%BChlke-1ab9483b9/" target="_blank" rel="noopener noreferrer">
-      LinkedIn
-    </a>
+    <p class="copyright">© 2026 Nena Zühlke.</p>
   </div>
-
-  <p>© 2026 Nena Zühlke</p>
 </footer>
+
 <script src="script.js"></script>
 
 </body>
