@@ -51,7 +51,7 @@ Heute habe ich die neue Version meiner Webseite veröffentlicht. Es gab dann ein
 
 ## 19.06
 
-- [ ] Fehler bei der Veröffentlichung verbessern
+- [x] Fehler bei der Veröffentlichung verbessern
 - [ ] Besseres Design bei der Webseite machen
 - [ ] Schulische Laufbahn hinzufügen
 - [ ] Ein neues, kleines Projekt anfangen für mein Portfolio
