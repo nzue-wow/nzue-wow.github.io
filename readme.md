@@ -47,12 +47,14 @@ Das GitHub readme.md für mein Profil habe ich auch gemacht. Ich sollte noch ein
 - [x] Webseite veröffentlichen/updaten
 - [x] github Profil verbessern.
 
-Heute habe ich die neue Version meiner Webseite veröffentlicht. Es gab dann ein Problem das die veröffentlichte Webseite die Effekte und den Hintergrund nicht mitgenommen hat. Dann habe ich den Code  nochmals hochgeladen und musste dann ca. 10 min
+Heute habe ich die neue Version meiner Webseite veröffentlicht. Es gab dann ein Problem das die veröffentlichte Webseite die Effekte und den Hintergrund nicht mitgenommen hat. Dann habe ich den Code  nochmals hochgeladen und musste dann ca. 10 min warten
 
 ## 19.06
 
 - [x] Fehler bei der Veröffentlichung verbessern
-- [ ] Besseres Design bei der Webseite machen
-- [ ] Schulische Laufbahn hinzufügen
-- [ ] Ein neues, kleines Projekt anfangen für mein Portfolio
+- [x] Besseres Design bei der Webseite machen
+- [x] Schulische Laufbahn hinzufügen
+- [x] Eigener Lebenslauf Updaten
+
+Heute habe ich meine Webseite verbessert. Der Fehler habe ich behoben man muss jedesmal einfach ein paar minuten warten. Dann habe ich das Design bisschen moderner und spannender gemacht. Ebanfalls habe ich meine Schlulische Laufbahn hinzugefügt und auch mein Lebenslauf verbessert.
 
